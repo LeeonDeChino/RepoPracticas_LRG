@@ -4,7 +4,7 @@
 
   - [Práctica 1 - _MarkDown_](practica-1.md)
 
-  - [Práctica 3 - Repositorios en Git](https://github.com/LeeonDeChino/repoPractica3_LRG)
+  - [Práctica 3 - _Repositorios en Git_](https://github.com/LeeonDeChino/repoPractica3_LRG)
 
   
 
