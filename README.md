@@ -9,3 +9,7 @@
   - [Práctica 5 - _Preguntas_](practica-5.md)
 
   - [Práctica 6 - _Ramas_](https://github.com/LeeonDeChino/repoPractica6_LRG)
+
+  - [Práctica 8 - _Preguntas parte 2_](https://github.com/LeeonDeChino/repoPractica6_LRG)
+
+  
