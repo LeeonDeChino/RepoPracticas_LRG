@@ -10,198 +10,307 @@
   <link rel="stylesheet" href="css/intro-css.css">
 </head>
 <body>
-  <h1 id="inicio">Introducción a <i>HTML</i></h1>
+
+  <header>
+    <h1 id="inicio">Introducción a <i>HTML</i></h1>
   <p>Hola mundo, soy Leo</p>
   <!-- Shift+Alt+A = shortcut para comentar -->
 
   <p>En este documento estaremos utilizando las etiquetas <i>HTML</i> más utilizadas en el desarrollo web</p>
 
   <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus nostrum dolores, quas quisquam unde asperiores, vitae error, delectus porro modi repellendus. Aliquam delectus molestiae qui ex modi corporis impedit enim!</p>
-
-  <ul>
-    <li><a href="#encabezados">Encabezados</a></li>
-    <li><a href="#etiquetas">Etiquetas de texto</a></li>
-    <li><a href="#listas">Listas</a></li>
-    <li><a href="#tablas">Tablas</a></li>
-    <li><a href="#imagenes">Imágenes</a></li>
-    <li><a href="#enlaces">Enlaces</a></li>
-  </ul>
-
+  </header>
+  
   <hr><!-- Línea divisora -->
 
-  <h2 id="encabezados">Encabezados</h2>
+  <nav>
+    <ul>
+      <li><a href="#encabezados">Encabezados</a></li>
+      <li><a href="#etiquetas">Etiquetas de texto</a></li>
+      <li><a href="#listas">Listas</a></li>
+      <li><a href="#tablas">Tablas</a></li>
+      <li><a href="#imagenes">Imágenes</a></li>
+      <li><a href="#enlaces">Enlaces</a></li>
+      <li><a href="#audiovideo">Audio y video</a></li>
+      <li><a href="#iframe">Iframe</a></li>
+      <li><a href="#etiquetas-semanticas">Etiquetas semánticas</a></li>
+      <li><a href="#detalle">Detalle</a></li>
+    </ul>
+  </nav>
 
-  <p><i>HTML</i>, tiene 6 encabezados, que nos sirven para dar jerarquía a los títulos de nuestro artículo</p>
-  
-  <h1>Encabezado lvl1</h1>
-  <h2>Encabezado lvl2</h2>
-  <h3>Encabezado lvl3</h3>
-  <h4>Encabezado lvl4</h4>
-  <h5>Encabezado lvl5</h5>
-  <h6>Encabezado lvl6</h6>
-
-  <a href="#inicio">Regresar al inicio 🔼</a>
   <hr>
 
-  <h2 id="etiquetas">Etiquetas de texto</h2>
+  <section>
+    <h2 id="encabezados">Encabezados</h2>
 
-  <p>Este grupo de etiquetas permiten darle formatos diferentes a nuestro texto.</p>
+    <p><i>HTML</i>, tiene 6 encabezados, que nos sirven para dar jerarquía a los títulos de nuestro artículo</p>
+    
+    <h1>Encabezado lvl1</h1>
+    <h2>Encabezado lvl2</h2>
+    <h3>Encabezado lvl3</h3>
+    <h4>Encabezado lvl4</h4>
+    <h5>Encabezado lvl5</h5>
+    <h6>Encabezado lvl6</h6>
+  
+    <a href="#inicio">Regresar al inicio 🔼</a>
+  </section>
+  
+  <hr>
 
+  <section>
+    <h2 id="etiquetas">Etiquetas de texto</h2>
+  
+    <p>Este grupo de etiquetas permiten darle formatos diferentes a nuestro texto.</p>
+  
+    <p>
+    <b>Texto en negritas</b>
+    <br> <!-- Salto de línea -->
+    <i>Texto en cursiva</i>
+    <br>
+    <b><i>Texto en negritas y cursiva</i></b>
+    <br>
+    <u>Texto subrayado</u>
+    <br>
+    <mark>Texto marcado</mark>
+    <br>
+    <small>Texto en letritas</small>
+  </p>
+  
+  <a href="#inicio">Regresar al inicio 🔼</a>
+
+  </section>
+
+<hr>
+
+<section>
   <p>
-  <b>Texto en negritas</b>
-  <br> <!-- Salto de línea -->
-  <i>Texto en cursiva</i>
-  <br>
-  <b><i>Texto en negritas y cursiva</i></b>
-  <br>
-  <u>Texto subrayado</u>
-  <br>
-  <mark>Texto marcado</mark>
-  <br>
-  <small>Texto en letritas</small>
-</p>
+    La fórmula del agua es H<sub>2</sub>O
+    <br>
+    La fórmula de la relatividad introducida por Einstein es e=mc<sup>2</sup>
+  </p>
+  
+  <blockquote>
+    "Yo sólo sé, que no sé nada"
+    <br>
+    <cite>Sócrates</cite>
+  </blockquote>
+  
+  <a href="#inicio">Regresar al inicio 🔼</a>
+</section>
 
-<a href="#inicio">Regresar al inicio 🔼</a>
 <hr>
 
-<p>
-  La fórmula del agua es H<sub>2</sub>O
-  <br>
-  La fórmula de la relatividad introducida por Einstein es e=mc<sup>2</sup>
-</p>
+<section>
 
-<blockquote>
-  "Yo sólo sé, que no sé nada"
-  <br>
-  <cite>Sócrates</cite>
-</blockquote>
-
-<a href="#inicio">Regresar al inicio 🔼</a>
-<hr>
-
-<h2 id="listas">Listas</h2>
-<p>En <i>HTML</i>, principalmente tenemos 2 tipos de listas.</p>
-
-<h3>Listas ordenadas</h3>
-<ol>
-<li>Primavera</li>
-<li>Verano</li>
-<li>Otoño</li>
-<li>Invierno</li>
-</ol>
-<ol type="A">
+  <h2 id="listas">Listas</h2>
+  <p>En <i>HTML</i>, principalmente tenemos 2 tipos de listas.</p>
+  
+  <h3>Listas ordenadas</h3>
+  <ol>
   <li>Primavera</li>
   <li>Verano</li>
   <li>Otoño</li>
   <li>Invierno</li>
   </ol>
-  <ol type="I">
+  <ol type="A">
     <li>Primavera</li>
     <li>Verano</li>
     <li>Otoño</li>
     <li>Invierno</li>
     </ol>
+    <ol type="I">
+      <li>Primavera</li>
+      <li>Verano</li>
+      <li>Otoño</li>
+      <li>Invierno</li>
+      </ol>
+  
+  <h3>Listas desordenadas</h3>
+  <ul>
+    <li>Primavera</li>
+    <li>Verano</li>
+    <li>Otoño</li>
+    <li>Invierno</li>
+  </ul>
+  <ul type="circle">
+    <li>Primavera</li>
+    <li>Verano</li>
+    <li>Otoño</li>
+    <li>Invierno</li>
+  </ul>
+  <ul type="square">
+    <li>Primavera</li>
+    <li>Verano</li>
+    <li>Otoño</li>
+    <li>Invierno</li>
+  </ul>
+  
+  <h3>Listas anidadas</h3>
+  <ul>
+    <li>Primavera
+      <ol>
+        <li>Abril</li>
+        <li>Mayo</li>
+        <li>Junio</li>
+      </ol>
+    </li>
+    <li>Verano
+      <ol>
+        <li>Julio</li>
+        <li>Agosto</li>
+        <li>Septiembre</li>
+      </ol>
+    </li>
+    <li>Otoño
+      <ol>
+        <li>Octubre</li>
+        <li>Noviembre</li>
+        <li>Diciembre</li>
+      </ol>
+    </li>
+    <li>Invierno
+      <ol>
+        <li>Enero</li>
+        <li>Febrero</li>
+        <li>Marzo</li>
+      </ol>
+    </li>
+  </ul>
+  
+  <a href="#inicio">Regresar al inicio 🔼</a>
+</section>
 
-<h3>Listas desordenadas</h3>
-<ul>
-  <li>Primavera</li>
-  <li>Verano</li>
-  <li>Otoño</li>
-  <li>Invierno</li>
-</ul>
-<ul type="circle">
-  <li>Primavera</li>
-  <li>Verano</li>
-  <li>Otoño</li>
-  <li>Invierno</li>
-</ul>
-<ul type="square">
-  <li>Primavera</li>
-  <li>Verano</li>
-  <li>Otoño</li>
-  <li>Invierno</li>
-</ul>
-
-<h3>Listas anidadas</h3>
-<ul>
-  <li>Primavera
-    <ol>
-      <li>Abril</li>
-      <li>Mayo</li>
-      <li>Junio</li>
-    </ol>
-  </li>
-  <li>Verano
-    <ol>
-      <li>Julio</li>
-      <li>Agosto</li>
-      <li>Septiembre</li>
-    </ol>
-  </li>
-  <li>Otoño
-    <ol>
-      <li>Octubre</li>
-      <li>Noviembre</li>
-      <li>Diciembre</li>
-    </ol>
-  </li>
-  <li>Invierno
-    <ol>
-      <li>Enero</li>
-      <li>Febrero</li>
-      <li>Marzo</li>
-    </ol>
-  </li>
-</ul>
-
-<a href="#inicio">Regresar al inicio 🔼</a>
 <hr>
 
-<h2 id="tablas">Tablas</h2>
-<table border="1">
-  <tr>
-    <th>Ciudad</th>
-    <th>País</th>
-    <th>Continente</th>
-  </tr>
-  <tr>
-    <td>CDMX</td>
-    <td>México</td>
-    <td>América</td>
-  </tr>
-  <tr>
-    <td>París</td>
-    <td>Francia</td>
-    <td>Europa</td>
-  </tr>
-  <tr>
-    <td>Tokyo</td>
-    <td>Japón</td>
-    <td>Asia</td>
-  </tr>
-</table>
+<section>
+  <h2 id="tablas">Tablas</h2>
+  <table border="1">
+    <tr>
+      <th>Ciudad</th>
+      <th>País</th>
+      <th>Continente</th>
+    </tr>
+    <tr>
+      <td>CDMX</td>
+      <td>México</td>
+      <td>América</td>
+    </tr>
+    <tr>
+      <td>París</td>
+      <td>Francia</td>
+      <td>Europa</td>
+    </tr>
+    <tr>
+      <td>Tokyo</td>
+      <td>Japón</td>
+      <td>Asia</td>
+    </tr>
+  </table>
+  
+  <a href="#inicio">Regresar al inicio 🔼</a>
+</section>
 
-<a href="#inicio">Regresar al inicio 🔼</a>
 <hr>
 
-<h2 id="imagenes">Imágenes</h2>
+<section>
+  <h2 id="imagenes">Imágenes</h2>
+  
+  <img src="img/CompLRG.png" alt="Imagen compuesta - RAGUT Games">
+  <img src="img/cypher.gif" alt="Cypher VALORANT">
+  <br>
+  <a href="#inicio">Regresar al inicio 🔼</a>
+  <hr>
+  
+  <h2 id="enlaces">Enlaces</h2>
+  <a href="otro.html">Ir a otro documento</a>
+  <br>
+  <a href="https://youtu.be/J7x-gUC3eco" target="_blank">One taps</a>
+  <br>
+  <a href="mailto:leoragut@gmail.com">leoragut@gmail.com</a>
+  <br>
+  <a href="tel:525513420879">525513420879</a>
+  <br>
+  <a href="#inicio">Regresar al inicio 🔼</a>
+</section>
 
-<img src="img/CompLRG.png" alt="Imagen compuesta - RAGUT Games">
-<img src="img/cypher.gif" alt="Cypher VALORANT">
-<br>
-<a href="#inicio">Regresar al inicio 🔼</a>
 <hr>
 
-<h2 id="enlaces">Enlaces</h2>
-<a href="otro.html">Ir a otro documento</a>
-<br>
-<a href="https://youtu.be/J7x-gUC3eco" target="_blank">One taps</a>
-<br>
-<a href="mailto:leoragut@gmail.com">leoragut@gmail.com</a>
-<br>
-<a href="tel:525513420879">525513420879</a>
-<br>
-<a href="#inicio">Regresar al inicio 🔼</a>
+<section>
+  <h2 id="audiovideo">Audio y video</h2>
+  <br>
+  <audio src="media/crossbow_shot.flac" controls preload></audio>
+  <br>
+  <video src="media/5sVid.mp4"controls preload poster="img/dumb.png"></video>
+  <br>
+  <a href="#inicio">Regresar al inicio 🔼</a>
+</section>
+
+<hr>
+
+<section>
+  <h2 id="iframe">Iframe</h2>
+  <iframe width="100%" height="600" src="media/GamificationModelCanvas.pdf" frameborder="0"></iframe>
+  <br>
+  <iframe width="560" height="315" src="https://www.youtube.com/embed/Lp91TWoT4rc?si=xo-cSxfUZ9gIZKb9" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+  <br>
+  <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3763.831230127903!2d-99.15897832483887!3d19.37645904247151!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x85d1ff82b342aee3%3A0x93244993291fd0cc!2sUniversidad%20Amerike%20Campus%20CDMX!5e0!3m2!1ses-419!2smx!4v1713283029971!5m2!1ses-419!2smx" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+  <br>
+  <a href="#inicio">Regresar al inicio 🔼</a>
+</section>
+
+<hr>
+
+<section>
+  <h2 id="etiquetas-semanticas">Etiquetas semánticas</h2>
+  <div>Esto es una div</div>
+  <header>Esto es un header</header>
+  <nav>Esto es un nav</nav>
+  <main>Esto es un main</main>
+  <aside>Esto es un aside</aside>
+  <article>Esto es un article</article>
+  <section>Esto es una section</section>
+  <footer>Esto es un footer</footer>
+  <br>
+  <a href="#inicio">Regresar al inicio 🔼</a>
+</section>
+
+<hr>
+
+<section>
+  <h2 id="detalle">Detalle</h2>
+  <details>
+    <summary>Resumen del Detalle</summary>
+    <div>
+      <p>Contenido oculto del detalle</p>
+      <img src="img/cypher.gif" alt="Cypher" />
+      <p>
+        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aliquam, quasi
+        quo! Autem, mollitia voluptate necessitatibus optio quam, nisi dolorum
+        ducimus magni unde illum perspiciatis soluta ipsa vitae fuga inventore
+        reprehenderit!
+      </p>
+    </div>
+  </details>
+  <details open>
+    <summary>Resumen del Detalle</summary>
+    <div>
+      <p>
+        Este detalle tiene el atributo <b><i>open</i></b
+        >, por lo que comienza abierto al cargar el documento.
+      </p>
+      <img src="img/cypher.gif" alt="Cypher" />
+      <p>
+        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aliquam, quasi
+        quo! Autem, mollitia voluptate necessitatibus optio quam, nisi dolorum
+        ducimus magni unde illum perspiciatis soluta ipsa vitae fuga inventore
+        reprehenderit!
+      </p>
+    </div>
+  </details>
+  <br>
+  <a href="#inicio">Regresar al inicio 🔼</a>
+</section>
+
 <hr>
 
   <script src="js/intro-js.js"> </script>
